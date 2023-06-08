@@ -1319,6 +1319,56 @@
                       "mobileLeftColumn": 3,
                       "buttonVariant": "PRIMARY",
                       "placement": "CENTER"
+                    },
+                    {
+                      "mobileBottomRow": 9,
+                      "widgetName": "Checkbox2",
+                      "displayName": "Checkbox",
+                      "iconSVG": "/static/media/icon.9733ca0215cbd7985795d8264a3848cf.svg",
+                      "searchTags": [
+                        "boolean"
+                      ],
+                      "topRow": 5,
+                      "bottomRow": 9,
+                      "parentRowSpace": 10,
+                      "type": "CHECKBOX_WIDGET",
+                      "alignWidget": "LEFT",
+                      "hideCard": false,
+                      "mobileRightColumn": 39,
+                      "animateLoading": true,
+                      "parentColumnSpace": 6.162109375,
+                      "leftColumn": 27,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "labelPosition": "Left",
+                      "isDisabled": false,
+                      "key": "5qynu2wydd",
+                      "isRequired": false,
+                      "isDeprecated": false,
+                      "rightColumn": 39,
+                      "dynamicHeight": "AUTO_HEIGHT",
+                      "widgetId": "c6j3yco2a9",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "minWidth": 450,
+                      "isVisible": true,
+                      "label": "Label",
+                      "version": 1,
+                      "parentId": "vozsl1jcix",
+                      "renderMode": "CANVAS",
+                      "isLoading": false,
+                      "mobileTopRow": 5,
+                      "responsiveBehavior": "fill",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "mobileLeftColumn": 27,
+                      "defaultCheckedState": true,
+                      "maxDynamicHeight": 9000,
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "r1m0jibfnp",
@@ -1360,7 +1410,7 @@
               "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
               "mobileLeftColumn": 9,
               "maxDynamicHeight": 9000,
-              "originalBottomRow": 73,
+              "originalBottomRow": 76,
               "minDynamicHeight": 10
             }
           ]
