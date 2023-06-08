@@ -185,7 +185,7 @@
                         "boolean"
                       ],
                       "topRow": 3,
-                      "bottomRow": 7,
+                      "bottomRow": 8,
                       "parentRowSpace": 10,
                       "type": "CHECKBOX_WIDGET",
                       "alignWidget": "LEFT",
@@ -225,7 +225,7 @@
                       "mobileLeftColumn": 47,
                       "defaultCheckedState": true,
                       "maxDynamicHeight": 9000,
-                      "originalBottomRow": 8,
+                      "originalBottomRow": 7,
                       "minDynamicHeight": 4
                     }
                   ],
@@ -814,8 +814,8 @@
                         "visuals",
                         "visualisations"
                       ],
-                      "topRow": 7,
-                      "bottomRow": 30,
+                      "topRow": 12,
+                      "bottomRow": 35,
                       "parentRowSpace": 10,
                       "type": "CHART_WIDGET",
                       "hideCard": false,
@@ -842,7 +842,7 @@
                       "animateLoading": true,
                       "fontFamily": "{{appsmith.theme.fontFamily.appFont}}",
                       "parentColumnSpace": 5.03125,
-                      "leftColumn": 7,
+                      "leftColumn": 6,
                       "dynamicBindingPathList": [
                         {
                           "key": "borderRadius"
@@ -906,7 +906,7 @@
                       },
                       "key": "1puxb6bjip",
                       "isDeprecated": false,
-                      "rightColumn": 55,
+                      "rightColumn": 54,
                       "widgetId": "uhqdkgxvrp",
                       "accentColor": "{{appsmith.theme.colors.primaryColor}}",
                       "minWidth": 450,
@@ -924,6 +924,67 @@
                       "mobileLeftColumn": 7,
                       "xAxisName": "Product Line",
                       "chartType": "COLUMN_CHART"
+                    },
+                    {
+                      "boxShadow": "none",
+                      "dateFormat": "YYYY-MM-DD HH:mm",
+                      "iconSVG": "/static/media/icon.c8ac755fdc7a44c32deab2390f007005.svg",
+                      "topRow": 5,
+                      "labelWidth": 5,
+                      "type": "DATE_PICKER_WIDGET2",
+                      "animateLoading": true,
+                      "leftColumn": 7,
+                      "dynamicBindingPathList": [
+                        {
+                          "key": "accentColor"
+                        },
+                        {
+                          "key": "borderRadius"
+                        }
+                      ],
+                      "isDisabled": false,
+                      "isRequired": false,
+                      "dynamicHeight": "FIXED",
+                      "accentColor": "{{appsmith.theme.colors.primaryColor}}",
+                      "isVisible": true,
+                      "datePickerType": "DATE_PICKER",
+                      "version": 2,
+                      "isLoading": false,
+                      "timePrecision": "minute",
+                      "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+                      "closeOnSelection": true,
+                      "mobileBottomRow": 12,
+                      "widgetName": "DatePicker1",
+                      "minDate": "1920-12-31T18:30:00.000Z",
+                      "displayName": "DatePicker",
+                      "searchTags": [
+                        "calendar"
+                      ],
+                      "bottomRow": 12,
+                      "shortcuts": false,
+                      "parentRowSpace": 10,
+                      "hideCard": false,
+                      "mobileRightColumn": 42,
+                      "parentColumnSpace": 3.361328125,
+                      "labelPosition": "Top",
+                      "key": "vsuuqdlgcg",
+                      "labelTextSize": "0.875rem",
+                      "defaultDate": "2023-06-08T17:16:54.506Z",
+                      "isDeprecated": false,
+                      "rightColumn": 60,
+                      "widgetId": "plt4a58fvs",
+                      "minWidth": 450,
+                      "label": "Label",
+                      "parentId": "u8sc6nzqfz",
+                      "labelAlignment": "left",
+                      "renderMode": "CANVAS",
+                      "mobileTopRow": 5,
+                      "responsiveBehavior": "fill",
+                      "mobileLeftColumn": 22,
+                      "maxDynamicHeight": 9000,
+                      "firstDayOfWeek": 0,
+                      "maxDate": "2121-12-31T18:29:00.000Z",
+                      "minDynamicHeight": 4
                     }
                   ],
                   "key": "5axrz4hyv9",
