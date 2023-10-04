@@ -16,7 +16,7 @@ jobs:
       - name: Checkout target repo
         uses: actions/checkout@v2
         with:
-          ref: master  # Optional: set the branch to checkout
+          ref: non-working-branch  # Optional: set the branch to checkout
           persist-credentials: false  # REQUIRED if your upstream repo is private (see wiki)
 
       # REQUIRED step
@@ -25,7 +25,7 @@ jobs:
         id: sync
         uses: aormsby/Fork-Sync-With-Upstream-action@v3.4
         with:
-          target_sync_branch: master
+          target_sync_branch: non-working-branch
           # REQUIRED 'target_repo_token' exactly like this!
           target_repo_token: ${{ secrets.GITHUB_TOKEN }}
           upstream_sync_branch: master  # Use the branch you want to sync from upstream
