@@ -14,7 +14,7 @@ jobs:
       # REQUIRED step
       # Step 1: Run a standard checkout action, provided by GitHub
       - name: Checkout target repo
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
         with:
           ref: non-working-branch  # Optional: set the branch to checkout
           persist-credentials: false  # REQUIRED if your upstream repo is private (see wiki)
